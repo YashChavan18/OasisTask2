@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 34);
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(3, 3, 59);
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul  li {
+    list-style: none;
+    margin:0 15px;
+}
+nav ul  a{
+    text-decoration: none;
+    margin:0 23px;
+    color: white;
+
+}
+nav ul li a:hover{
+    color: #e7b40ce1;
+    font-size: 1.02rem;
+    text-decoration:underline;
+    text-underline-position: under;
+    
+}    
+
+.left{
+    font-size: 2rem;
+    color: rgb(240, 216, 7);
+    font-weight: 700;
+   
+  
+}
+
+.left a:hover {
+    font-size: 2rem;
+    color: rgba(13, 238, 32, 0.863); 
+    
+}
+
+.firstsec{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0; 
+
+}
+.firstsec > div{
+    width: 30%;
+}
+.leftsec img{
+    width: 80%;
+    margin: 30px 0;
+}
+.rightsec { 
+    font-size: 2.2rem;
+    margin: 50px 0;
+    width: 100%;
+    align-items: center;
+   
+    
+}
+
+.rightsec span{
+    color: rgb(255, 0, 255);
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgb(255, 17, 0);
+}
+main .hr{
+   border: 0;
+   background-color: rgba(6, 119, 134, 0.788);
+   height: 1px;
+   margin: 50px;
+}
+
+
+.section2{
+    max-width: 80vw;
+    margin:  auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.section2 .div{
+
+     height: 65vh;
+     max-width: 50%;
+     margin: 50px;
+     box-shadow: 0px 15px 15px 2px  rgba(132, 247, 247, 0.753);
+     border-radius: 10px;
+     text-align: center;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+.section2 .div button{
+    margin:auto;
+    background-color: rgba(28, 1, 54, 0.87);
+    text-decoration: none;
+    max-width: 30%;
+    border-radius: 8px;
+    padding: 6px;
+    color: rgb(240, 238, 253);
+    
+}
+.section2 .div button a{
+    text-decoration: none;
+    color: rgb(240, 238, 253);
+    font-size: 1rem;
+    }
+.section2 .div  button:hover{
+    background-color: rgba(17, 0, 255, 0.425);
+    color: white;
+    transition: .5s;
+    box-shadow: 0px 0px 10px  rgb(0, 225, 255);
+    }
+
+.section2 .div h2{
+    color: rgb(248, 244, 7);
+    text-overflow:wrap;
+    text-shadow: 2px 2px 5px red;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    
+    }
+.section2  h1{
+    margin-left: 20px;
+    font-size: 2rem;
+    box-shadow: 0px 0px 10px  rgb(0, 225, 255);
+    border-radius: 6px;
+    max-width: 20%;
+    text-align: center;
+}
+
+
+.section2 .features li {
+    margin: 18px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    text-align: justify;
+}
+.section2 .box1{
+      padding: 20px;
+      float: right;
+      background: rgb(2,77,145);
+      background: linear-gradient(90deg, rgba(2,77,145,1) 44%, rgba(0,212,255,1) 100%);
+      
+}
+
+.section2  .box2{
+    padding: 20px;
+    float: left;
+    background: rgb(2,77,145);
+    background: linear-gradient(90deg, rgba(2,77,145,1) 44%, rgba(0,212,255,1) 100%);
+}
+.section2 .features span{
+    color: rgb(255, 255, 255);
+}
+.section1{
+    max-width: 80vw;
+    margin:  auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.section1 h1{
+    margin-left: 20px;
+    font-size: 2rem;
+    box-shadow: 0px 0px 10px  rgb(0, 225, 255);
+    max-width: 20%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.section1 h3{
+    margin-left: 20px;
+    color:rgba(106, 225, 255, 0.747);
+    max-width: 100%;
+    text-align: center;
+    border-radius: 6px;
+}
+.section1 h3 p a{
+    display: inline;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255)  ;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+
+}
+.section1 h3 p a:hover{
+    color: rgb(37, 0, 248);
+    }
+.section1 h3 p a:active{
+    color: rgb(0, 255, 0);
+    }
+
+.mesection {
+    margin: 20px;
+     display: block;
+   
+}
+.mesection img{
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+    box-shadow: 0px 0px 10px  rgb(45, 156, 230);
+    border-radius: 10px;
+
+}
+.mesection p {
+    padding: 10px;
+    line-height: 2;
+    color: rgba(207, 202, 194, 0.938);
+    text-align: justify;
+} 
+ .mesection p span{
+    color: rgb(215, 54, 255);
+    font-size: 1em;
+ }
+ .mesection .icons{
+    color: white;
+    text-align: center;
+ }
+ 
+.mesection .tab{
+    margin: 50px;
+}
+
+
+.section3{
+    max-width: 80vw;
+    margin:  auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+.section3 .contact h1{
+    width: 20%;
+    margin: 20px;
+    font-size: 2rem;
+    box-shadow: 0px 0px 10px  rgb(0, 225, 255);
+    text-align: center;
+    border-radius: 6px;
+}
+.section3 .connect p{
+    margin: 20px;
+    
+}
+.section3 .connect p i{
+          margin: 20px;
+          color: rgb(204, 181, 181);
+         
+}
+.icons1{
+    text-align: center;
+}
+.icons1 a {
+    margin: 20px;
+    font-size: 1.6rem;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+  
+}
+.icons1 a:hover{
+    color: rgb(33, 6, 182);
+    }
+
